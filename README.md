@@ -20,12 +20,28 @@ This project is a full-stack application featuring a Node.js backend and a React
 - Node.js (v14 or above)
 - npm
 
-**Note for Windows Users:**  
-For setting environment variables, use [cross-env](https://www.npmjs.com/package/cross-env).
-
 ## Backend Setup
 
 1. **Navigate to the backend directory:**
    ```bash
    cd backend
+   npm install
+   npm run dev
    ```
+2. **Add necessary Environment Variables:** Path`/config/.env.dev`
+   ```bash
+   PORT
+   MONGO_URL
+   JWT_SECRET
+   DB_NAME
+   WORKSPACE_EMAIL
+   WORK_SPACE_PASSWORD
+   ```
+
+## Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
