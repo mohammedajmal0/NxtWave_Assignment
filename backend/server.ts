@@ -44,6 +44,7 @@ class Server {
           "http://localhost:5500",
           "127.0.0.1:5500",
           "http://localhost:4200",
+          "https://nxt-wave-assignment.vercel.app",
           process.env.CORS_ALLOW_ORIGIN || "*",
         ];
 
